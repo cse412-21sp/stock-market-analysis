@@ -1,24 +1,30 @@
-[meta title:"CSE412 Final Project" description:"The initial template for the CSE412 Final Projects (Spring 2021)" /]
+[meta title:"Stock Market Analysis" description:"The initial template for the CSE412 Final Projects (Spring 2021)" /]
 
 [Header
   fullWidth:true
-  title:"CSE412 Final Project Template"
-  subtitle:"Use this structure to get started, but make the narrative your own!"
-  author:"Jane Hoffswell"
+  title:"Stock Market Analysis"
+  subtitle:"Taking a look at various things about the stocks market..."
+  author:"Angus McLeod, Sylvie Nguyen, Oliver Nie, Calvin Yu. (UW CSE 412, Spring 2021)"
   authorLink: "
-  https://courses.cs.washington.edu/courses/cse412/21sp/index.html"
+  https://github.com/cse412-21sp/stock-market-analysis"
   date:"Apr 6, 2021"
   background:"#33333f"
   color:"#ffffff"
    /]
 
-The final project will provide hands-on experience designing, implementing, and deploying interactive visualizations for the web. For this project, you will select a topic of interest and author a narrative article and accompanying visualizations to educate and inform a general audience. Think of your project as contributing to our own class newspaper or scientific magazine. The final deliverable will take the form of an explanatory narrative, deployed as an interactive web page using GitHub Pages. You will leverage the template and style provided here. 
+In this website we will look at a few analyses on the stock market...
 
-## The theme is data visualization for communicating scientific advancements or social phenomena. How might data visualization help us better understand the workings of our society or our physical world?
+## How did the COVID pandemic affect the returns of the market? (CY)
 
-Your project must visualize one or more publicly accessible datasets of social or scientific importance. You are free to choose a specific domain of personal interest; for example, you might explore data relevant to your UW major. Example topics include transportation, economic development, humanitarian aid, legislative voting records, and communicating scientific research, among many others. Talk to the course staff if you have any questions regarding the project theme.
+Here, we will use VFINX, the S&P 500 index as reference to the whole market. VFINX offers exposure to 500 of the largest U.S companies, which span many different industries and account for about three-fourth of the U.S stock market’s value. The key risk for the fund is the volatility that comes with its full exposure to the stock market.
 
-This template was created with [Idyll](https://idyll-lang.org/docs), which is a markup language for creating beautiful interactive webpages. For your own webpage, you can customize the particular components and layouts that are used, but the style of the overall page is predefined by our course theme. 
+First, let's compare the variation of daily return in a month for the past 5 years in the boxplot below. Select the month you want to compare with the slider below the chart.
+
+[Graphic]
+[PlotlyEmbed link:"https://chart-studio.plotly.com/~yuchun00/1.embed" height:"600" width:"100%" /]
+[/Graphic]
+
+Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in most of the months of 2020 we saw a larger variation in daily returns compared to the prior years. In March we saw the highest variation, with a lowest daily return of -12% and a highest daily return of 9%; much higher than the March in the prior years. While we did not see as big of a variation in the remaining months as we did in March, for most of the months the variation were still bigger than the prior years. It is fair to say that we did see a more volatile year in the U.S. market due to the COVID 19 pandemic. 
 
 Keep reading for examples of how to embed visualizations and modify the format.
 
@@ -102,9 +108,9 @@ The original visualization is on the larger side, so we can display it using a `
 
 Similar to the other embedded visualizations, you can embed interactive Plotly visualizations using the custom component `PlotlyEmbed`:
 
-[FullWidth]
-[PlotlyEmbed link:"https://plotly.com/~kmarathe/1.embed" height:"800" width:"100%" /]
-[/FullWidth]
+[Graphic]
+[PlotlyEmbed link:"https://chart-studio.plotly.com/~yuchun00/1.embed" height:"600" width:"100%" /]
+[/Graphic]
 
 Note that the `width` and `height` parameters control the size of the `iframe` that is embedded in the page, *not* the visualization, so you will need to design your visualizations with Plotly accordingly, and test the page layout.
 
