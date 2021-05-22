@@ -1,0 +1,1796 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='external-debt' inline='true' name='federated.1t5hwwl1m3o67211bjjgd0u28n8r' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='external-debt' name='textscan.1kqcrm51o8878x1cny0z10kn3xnd'>
+            <connection class='textscan' directory='C:/Users/12069/Desktop/Class/CSE412/stock-market-analysis/data' filename='external-debt.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1kqcrm51o8878x1cny0z10kn3xnd' name='external-debt.csv' table='[external-debt#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='real' name='Current account balance (BoP, current US$)' ordinal='3' />
+            <column datatype='real' name='Debt service (PPG and IMF only, % of exports of goods, services and primary income)' ordinal='4' />
+            <column datatype='real' name='Debt service on external debt, long-term (TDS, current US$)' ordinal='5' />
+            <column datatype='integer' name='Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)' ordinal='6' />
+            <column datatype='real' name='Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)' ordinal='7' />
+            <column datatype='real' name='Debt service on external debt, total (TDS, current US$)' ordinal='8' />
+            <column datatype='real' name='Exports of goods, services and primary income (BoP, current US$)' ordinal='9' />
+            <column datatype='real' name='Foreign direct investment, net inflows (BoP, current US$)' ordinal='10' />
+            <column datatype='real' name='GNI (current US$)' ordinal='11' />
+            <column datatype='real' name='Grants, excluding technical cooperation (BoP, current US$)' ordinal='12' />
+            <column datatype='real' name='IMF repurchases and charges (TDS, current US$)' ordinal='13' />
+            <column datatype='real' name='Imports of goods, services and primary income (BoP, current US$)' ordinal='14' />
+            <column datatype='real' name='Multilateral debt service (% of public and publicly guaranteed debt service)' ordinal='15' />
+            <column datatype='real' name='Multilateral debt service (TDS, current US$)' ordinal='16' />
+            <column datatype='real' name='Net ODA received per capita (current US$)' ordinal='17' />
+            <column datatype='integer' name='Net official development assistance received (current US$)' ordinal='18' />
+            <column datatype='integer' name='PNG, bonds (NTR, current US$)' ordinal='19' />
+            <column datatype='integer' name='PNG, bonds (TDS, current US$)' ordinal='20' />
+            <column datatype='integer' name='PNG, commercial banks and other creditors (NTR, current US$)' ordinal='21' />
+            <column datatype='integer' name='PNG, commercial banks and other creditors (TDS, current US$)' ordinal='22' />
+            <column datatype='integer' name='PPG, IBRD (TDS, current US$)' ordinal='23' />
+            <column datatype='real' name='PPG, IDA (TDS, current US$)' ordinal='24' />
+            <column datatype='real' name='PPG, bilateral (TDS, current US$)' ordinal='25' />
+            <column datatype='real' name='PPG, bilateral concessional (TDS, current US$)' ordinal='26' />
+            <column datatype='integer' name='PPG, bonds (NTR, current US$)' ordinal='27' />
+            <column datatype='integer' name='PPG, bonds (TDS, current US$)' ordinal='28' />
+            <column datatype='integer' name='PPG, commercial banks (NTR, current US$)' ordinal='29' />
+            <column datatype='real' name='PPG, commercial banks (TDS, current US$)' ordinal='30' />
+            <column datatype='real' name='PPG, multilateral concessional (NTR, current US$)' ordinal='31' />
+            <column datatype='real' name='PPG, multilateral concessional (TDS, current US$)' ordinal='32' />
+            <column datatype='real' name='PPG, official creditors (NTR, current US$)' ordinal='33' />
+            <column datatype='real' name='PPG, official creditors (TDS, current US$)' ordinal='34' />
+            <column datatype='integer' name='PPG, other private creditors (NTR, current US$)' ordinal='35' />
+            <column datatype='real' name='PPG, other private creditors (TDS, current US$)' ordinal='36' />
+            <column datatype='integer' name='PPG, private creditors (NTR, current US$)' ordinal='37' />
+            <column datatype='real' name='PPG, private creditors (TDS, current US$)' ordinal='38' />
+            <column datatype='real' name='Personal remittances, received (current US$)' ordinal='39' />
+            <column datatype='real' name='Portfolio equity, net inflows (BoP, current US$)' ordinal='40' />
+            <column datatype='real' name='Public and publicly guaranteed debt service (% of GNI)' ordinal='41' />
+            <column datatype='real' name='Public and publicly guaranteed debt service (% of exports of goods, services and primary income)' ordinal='42' />
+            <column datatype='integer' name='Technical cooperation grants (BoP, current US$)' ordinal='43' />
+            <column datatype='real' name='Total amount of debt rescheduled (current US$)' ordinal='44' />
+            <column datatype='real' name='Total debt service (% of GNI)' ordinal='45' />
+            <column datatype='real' name='Total debt service (% of exports of goods, services and primary income)' ordinal='46' />
+            <column datatype='real' name='Total reserves (% of total external debt)' ordinal='47' />
+            <column datatype='real' name='Total reserves (includes gold, current US$)' ordinal='48' />
+            <column datatype='real' name='Total reserves in months of imports' ordinal='49' />
+            <column datatype='real' name='Undisbursed external debt, official creditors (UND, current US$)' ordinal='50' />
+            <column datatype='real' name='Undisbursed external debt, private creditors (UND, current US$)' ordinal='51' />
+            <column datatype='real' name='Undisbursed external debt, total (UND, current US$)' ordinal='52' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1kqcrm51o8878x1cny0z10kn3xnd' name='external-debt.csv' table='[external-debt#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='real' name='Current account balance (BoP, current US$)' ordinal='3' />
+            <column datatype='real' name='Debt service (PPG and IMF only, % of exports of goods, services and primary income)' ordinal='4' />
+            <column datatype='real' name='Debt service on external debt, long-term (TDS, current US$)' ordinal='5' />
+            <column datatype='integer' name='Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)' ordinal='6' />
+            <column datatype='real' name='Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)' ordinal='7' />
+            <column datatype='real' name='Debt service on external debt, total (TDS, current US$)' ordinal='8' />
+            <column datatype='real' name='Exports of goods, services and primary income (BoP, current US$)' ordinal='9' />
+            <column datatype='real' name='Foreign direct investment, net inflows (BoP, current US$)' ordinal='10' />
+            <column datatype='real' name='GNI (current US$)' ordinal='11' />
+            <column datatype='real' name='Grants, excluding technical cooperation (BoP, current US$)' ordinal='12' />
+            <column datatype='real' name='IMF repurchases and charges (TDS, current US$)' ordinal='13' />
+            <column datatype='real' name='Imports of goods, services and primary income (BoP, current US$)' ordinal='14' />
+            <column datatype='real' name='Multilateral debt service (% of public and publicly guaranteed debt service)' ordinal='15' />
+            <column datatype='real' name='Multilateral debt service (TDS, current US$)' ordinal='16' />
+            <column datatype='real' name='Net ODA received per capita (current US$)' ordinal='17' />
+            <column datatype='integer' name='Net official development assistance received (current US$)' ordinal='18' />
+            <column datatype='integer' name='PNG, bonds (NTR, current US$)' ordinal='19' />
+            <column datatype='integer' name='PNG, bonds (TDS, current US$)' ordinal='20' />
+            <column datatype='integer' name='PNG, commercial banks and other creditors (NTR, current US$)' ordinal='21' />
+            <column datatype='integer' name='PNG, commercial banks and other creditors (TDS, current US$)' ordinal='22' />
+            <column datatype='integer' name='PPG, IBRD (TDS, current US$)' ordinal='23' />
+            <column datatype='real' name='PPG, IDA (TDS, current US$)' ordinal='24' />
+            <column datatype='real' name='PPG, bilateral (TDS, current US$)' ordinal='25' />
+            <column datatype='real' name='PPG, bilateral concessional (TDS, current US$)' ordinal='26' />
+            <column datatype='integer' name='PPG, bonds (NTR, current US$)' ordinal='27' />
+            <column datatype='integer' name='PPG, bonds (TDS, current US$)' ordinal='28' />
+            <column datatype='integer' name='PPG, commercial banks (NTR, current US$)' ordinal='29' />
+            <column datatype='real' name='PPG, commercial banks (TDS, current US$)' ordinal='30' />
+            <column datatype='real' name='PPG, multilateral concessional (NTR, current US$)' ordinal='31' />
+            <column datatype='real' name='PPG, multilateral concessional (TDS, current US$)' ordinal='32' />
+            <column datatype='real' name='PPG, official creditors (NTR, current US$)' ordinal='33' />
+            <column datatype='real' name='PPG, official creditors (TDS, current US$)' ordinal='34' />
+            <column datatype='integer' name='PPG, other private creditors (NTR, current US$)' ordinal='35' />
+            <column datatype='real' name='PPG, other private creditors (TDS, current US$)' ordinal='36' />
+            <column datatype='integer' name='PPG, private creditors (NTR, current US$)' ordinal='37' />
+            <column datatype='real' name='PPG, private creditors (TDS, current US$)' ordinal='38' />
+            <column datatype='real' name='Personal remittances, received (current US$)' ordinal='39' />
+            <column datatype='real' name='Portfolio equity, net inflows (BoP, current US$)' ordinal='40' />
+            <column datatype='real' name='Public and publicly guaranteed debt service (% of GNI)' ordinal='41' />
+            <column datatype='real' name='Public and publicly guaranteed debt service (% of exports of goods, services and primary income)' ordinal='42' />
+            <column datatype='integer' name='Technical cooperation grants (BoP, current US$)' ordinal='43' />
+            <column datatype='real' name='Total amount of debt rescheduled (current US$)' ordinal='44' />
+            <column datatype='real' name='Total debt service (% of GNI)' ordinal='45' />
+            <column datatype='real' name='Total debt service (% of exports of goods, services and primary income)' ordinal='46' />
+            <column datatype='real' name='Total reserves (% of total external debt)' ordinal='47' />
+            <column datatype='real' name='Total reserves (includes gold, current US$)' ordinal='48' />
+            <column datatype='real' name='Total reserves in months of imports' ordinal='49' />
+            <column datatype='real' name='Undisbursed external debt, official creditors (UND, current US$)' ordinal='50' />
+            <column datatype='real' name='Undisbursed external debt, private creditors (UND, current US$)' ordinal='51' />
+            <column datatype='real' name='Undisbursed external debt, total (UND, current US$)' ordinal='52' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current account balance (BoP, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current account balance (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Current account balance (BoP, current US$)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debt service (PPG and IMF only, % of exports of goods, services and primary income)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Debt service (PPG and IMF only, % of exports of goods, services and primary income)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Debt service (PPG and IMF only, % of exports of goods, services and primary income)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debt service on external debt, long-term (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Debt service on external debt, long-term (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Debt service on external debt, long-term (TDS, current US$)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debt service on external debt, total (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Debt service on external debt, total (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Debt service on external debt, total (TDS, current US$)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exports of goods, services and primary income (BoP, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Exports of goods, services and primary income (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Exports of goods, services and primary income (BoP, current US$)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign direct investment, net inflows (BoP, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Foreign direct investment, net inflows (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Foreign direct investment, net inflows (BoP, current US$)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GNI (current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GNI (current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>GNI (current US$)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grants, excluding technical cooperation (BoP, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grants, excluding technical cooperation (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Grants, excluding technical cooperation (BoP, current US$)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IMF repurchases and charges (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IMF repurchases and charges (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>IMF repurchases and charges (TDS, current US$)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Imports of goods, services and primary income (BoP, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Imports of goods, services and primary income (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Imports of goods, services and primary income (BoP, current US$)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Multilateral debt service (% of public and publicly guaranteed debt service)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Multilateral debt service (% of public and publicly guaranteed debt service)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Multilateral debt service (% of public and publicly guaranteed debt service)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Multilateral debt service (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Multilateral debt service (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Multilateral debt service (TDS, current US$)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net ODA received per capita (current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net ODA received per capita (current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Net ODA received per capita (current US$)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net official development assistance received (current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Net official development assistance received (current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Net official development assistance received (current US$)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PNG, bonds (NTR, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PNG, bonds (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PNG, bonds (NTR, current US$)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PNG, bonds (TDS, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PNG, bonds (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PNG, bonds (TDS, current US$)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PNG, commercial banks and other creditors (NTR, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PNG, commercial banks and other creditors (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PNG, commercial banks and other creditors (NTR, current US$)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PNG, commercial banks and other creditors (TDS, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PNG, commercial banks and other creditors (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PNG, commercial banks and other creditors (TDS, current US$)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, IBRD (TDS, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG, IBRD (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, IBRD (TDS, current US$)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, IDA (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, IDA (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, IDA (TDS, current US$)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, bilateral (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, bilateral (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, bilateral (TDS, current US$)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, bilateral concessional (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, bilateral concessional (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, bilateral concessional (TDS, current US$)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, bonds (NTR, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG, bonds (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, bonds (NTR, current US$)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, bonds (TDS, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG, bonds (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, bonds (TDS, current US$)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, commercial banks (NTR, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG, commercial banks (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, commercial banks (NTR, current US$)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, commercial banks (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, commercial banks (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, commercial banks (TDS, current US$)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, multilateral concessional (NTR, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, multilateral concessional (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, multilateral concessional (NTR, current US$)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, multilateral concessional (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, multilateral concessional (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, multilateral concessional (TDS, current US$)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, official creditors (NTR, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, official creditors (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, official creditors (NTR, current US$)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, official creditors (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, official creditors (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, official creditors (TDS, current US$)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, other private creditors (NTR, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG, other private creditors (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, other private creditors (NTR, current US$)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, other private creditors (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, other private creditors (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, other private creditors (TDS, current US$)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, private creditors (NTR, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PPG, private creditors (NTR, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, private creditors (NTR, current US$)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PPG, private creditors (TDS, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PPG, private creditors (TDS, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>PPG, private creditors (TDS, current US$)</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Personal remittances, received (current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Personal remittances, received (current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Personal remittances, received (current US$)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Portfolio equity, net inflows (BoP, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Portfolio equity, net inflows (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Portfolio equity, net inflows (BoP, current US$)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Public and publicly guaranteed debt service (% of GNI)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Public and publicly guaranteed debt service (% of GNI)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Public and publicly guaranteed debt service (% of GNI)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Public and publicly guaranteed debt service (% of exports of goods, services and primary income)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Public and publicly guaranteed debt service (% of exports of goods, services and primary income)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Public and publicly guaranteed debt service (% of exports of goods, services and primary income)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Technical cooperation grants (BoP, current US$)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Technical cooperation grants (BoP, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Technical cooperation grants (BoP, current US$)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total amount of debt rescheduled (current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total amount of debt rescheduled (current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Total amount of debt rescheduled (current US$)</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total debt service (% of GNI)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total debt service (% of GNI)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Total debt service (% of GNI)</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total debt service (% of exports of goods, services and primary income)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total debt service (% of exports of goods, services and primary income)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Total debt service (% of exports of goods, services and primary income)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total reserves (% of total external debt)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total reserves (% of total external debt)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Total reserves (% of total external debt)</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total reserves (includes gold, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total reserves (includes gold, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Total reserves (includes gold, current US$)</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total reserves in months of imports</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total reserves in months of imports]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Total reserves in months of imports</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Undisbursed external debt, official creditors (UND, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Undisbursed external debt, official creditors (UND, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Undisbursed external debt, official creditors (UND, current US$)</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Undisbursed external debt, private creditors (UND, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Undisbursed external debt, private creditors (UND, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Undisbursed external debt, private creditors (UND, current US$)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Undisbursed external debt, total (UND, current US$)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Undisbursed external debt, total (UND, current US$)]</local-name>
+            <parent-name>[external-debt.csv]</parent-name>
+            <remote-alias>Undisbursed external debt, total (UND, current US$)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='real' name='[Current account balance (BoP, current US$)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Debt service on external debt, long-term (TDS, current US$)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Total amount of debt rescheduled (current US$)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Total reserves (includes gold, current US$)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Undisbursed external debt, total (UND, current US$)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='external-debt.csv' datatype='table' name='[__tableau_internal_object_id__].[external-debt.csv_82FCE7D79EDA4ED198F81537921821E5]' role='measure' type='quantitative' />
+      <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Current account balance (BoP, current US$)]' derivation='Sum' name='[sum:Current account balance (BoP, current US$):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Debt service on external debt, long-term (TDS, current US$)]' derivation='Sum' name='[sum:Debt service on external debt, long-term (TDS, current US$):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)]' derivation='Sum' name='[sum:Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total amount of debt rescheduled (current US$)]' derivation='Sum' name='[sum:Total amount of debt rescheduled (current US$):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total reserves (includes gold, current US$)]' derivation='Sum' name='[sum:Total reserves (includes gold, current US$):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Undisbursed external debt, total (UND, current US$)]' derivation='Sum' name='[sum:Undisbursed external debt, total (UND, current US$):qk]' pivot='key' type='quantitative' />
+      <group caption='Focus Group' name='[Focus Group]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;China&quot;' />
+          <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;Japan&quot;' />
+          <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;United States&quot;' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Current account balance (BoP, current US$):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Undisbursed external debt, total (UND, current US$):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Total amount of debt rescheduled (current US$):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Total reserves (includes gold, current US$):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Debt service on external debt, long-term (TDS, current US$):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='external-debt.csv' id='external-debt.csv_82FCE7D79EDA4ED198F81537921821E5'>
+            <properties context=''>
+              <relation connection='textscan.1kqcrm51o8878x1cny0z10kn3xnd' name='external-debt.csv' table='[external-debt#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Country Name' ordinal='0' />
+                  <column datatype='string' name='Country Code' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='real' name='Current account balance (BoP, current US$)' ordinal='3' />
+                  <column datatype='real' name='Debt service (PPG and IMF only, % of exports of goods, services and primary income)' ordinal='4' />
+                  <column datatype='real' name='Debt service on external debt, long-term (TDS, current US$)' ordinal='5' />
+                  <column datatype='integer' name='Debt service on external debt, private nonguaranteed (PNG) (TDS, current US$)' ordinal='6' />
+                  <column datatype='real' name='Debt service on external debt, public and publicly guaranteed (PPG) (TDS, current US$)' ordinal='7' />
+                  <column datatype='real' name='Debt service on external debt, total (TDS, current US$)' ordinal='8' />
+                  <column datatype='real' name='Exports of goods, services and primary income (BoP, current US$)' ordinal='9' />
+                  <column datatype='real' name='Foreign direct investment, net inflows (BoP, current US$)' ordinal='10' />
+                  <column datatype='real' name='GNI (current US$)' ordinal='11' />
+                  <column datatype='real' name='Grants, excluding technical cooperation (BoP, current US$)' ordinal='12' />
+                  <column datatype='real' name='IMF repurchases and charges (TDS, current US$)' ordinal='13' />
+                  <column datatype='real' name='Imports of goods, services and primary income (BoP, current US$)' ordinal='14' />
+                  <column datatype='real' name='Multilateral debt service (% of public and publicly guaranteed debt service)' ordinal='15' />
+                  <column datatype='real' name='Multilateral debt service (TDS, current US$)' ordinal='16' />
+                  <column datatype='real' name='Net ODA received per capita (current US$)' ordinal='17' />
+                  <column datatype='integer' name='Net official development assistance received (current US$)' ordinal='18' />
+                  <column datatype='integer' name='PNG, bonds (NTR, current US$)' ordinal='19' />
+                  <column datatype='integer' name='PNG, bonds (TDS, current US$)' ordinal='20' />
+                  <column datatype='integer' name='PNG, commercial banks and other creditors (NTR, current US$)' ordinal='21' />
+                  <column datatype='integer' name='PNG, commercial banks and other creditors (TDS, current US$)' ordinal='22' />
+                  <column datatype='integer' name='PPG, IBRD (TDS, current US$)' ordinal='23' />
+                  <column datatype='real' name='PPG, IDA (TDS, current US$)' ordinal='24' />
+                  <column datatype='real' name='PPG, bilateral (TDS, current US$)' ordinal='25' />
+                  <column datatype='real' name='PPG, bilateral concessional (TDS, current US$)' ordinal='26' />
+                  <column datatype='integer' name='PPG, bonds (NTR, current US$)' ordinal='27' />
+                  <column datatype='integer' name='PPG, bonds (TDS, current US$)' ordinal='28' />
+                  <column datatype='integer' name='PPG, commercial banks (NTR, current US$)' ordinal='29' />
+                  <column datatype='real' name='PPG, commercial banks (TDS, current US$)' ordinal='30' />
+                  <column datatype='real' name='PPG, multilateral concessional (NTR, current US$)' ordinal='31' />
+                  <column datatype='real' name='PPG, multilateral concessional (TDS, current US$)' ordinal='32' />
+                  <column datatype='real' name='PPG, official creditors (NTR, current US$)' ordinal='33' />
+                  <column datatype='real' name='PPG, official creditors (TDS, current US$)' ordinal='34' />
+                  <column datatype='integer' name='PPG, other private creditors (NTR, current US$)' ordinal='35' />
+                  <column datatype='real' name='PPG, other private creditors (TDS, current US$)' ordinal='36' />
+                  <column datatype='integer' name='PPG, private creditors (NTR, current US$)' ordinal='37' />
+                  <column datatype='real' name='PPG, private creditors (TDS, current US$)' ordinal='38' />
+                  <column datatype='real' name='Personal remittances, received (current US$)' ordinal='39' />
+                  <column datatype='real' name='Portfolio equity, net inflows (BoP, current US$)' ordinal='40' />
+                  <column datatype='real' name='Public and publicly guaranteed debt service (% of GNI)' ordinal='41' />
+                  <column datatype='real' name='Public and publicly guaranteed debt service (% of exports of goods, services and primary income)' ordinal='42' />
+                  <column datatype='integer' name='Technical cooperation grants (BoP, current US$)' ordinal='43' />
+                  <column datatype='real' name='Total amount of debt rescheduled (current US$)' ordinal='44' />
+                  <column datatype='real' name='Total debt service (% of GNI)' ordinal='45' />
+                  <column datatype='real' name='Total debt service (% of exports of goods, services and primary income)' ordinal='46' />
+                  <column datatype='real' name='Total reserves (% of total external debt)' ordinal='47' />
+                  <column datatype='real' name='Total reserves (includes gold, current US$)' ordinal='48' />
+                  <column datatype='real' name='Total reserves in months of imports' ordinal='49' />
+                  <column datatype='real' name='Undisbursed external debt, official creditors (UND, current US$)' ordinal='50' />
+                  <column datatype='real' name='Undisbursed external debt, private creditors (UND, current US$)' ordinal='51' />
+                  <column datatype='real' name='Undisbursed external debt, total (UND, current US$)' ordinal='52' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Economy and Gold</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='external-debt' name='federated.1t5hwwl1m3o67211bjjgd0u28n8r' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1t5hwwl1m3o67211bjjgd0u28n8r'>
+            <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[Current account balance (BoP, current US$)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Total reserves (includes gold, current US$)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Current account balance (BoP, current US$)]' derivation='Sum' name='[sum:Current account balance (BoP, current US$):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total reserves (includes gold, current US$)]' derivation='Sum' name='[sum:Total reserves (includes gold, current US$):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[Focus Group]'>
+            <groupfilter function='member' level='[none:Country Name:nk]' member='&quot;United States&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[Focus Group]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='603' />
+                <format attr='maxwidth' value='603' />
+                <format attr='minheight' value='172' />
+                <format attr='maxheight' value='172' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='906' />
+                <format attr='maxwidth' value='906' />
+                <format attr='minheight' value='96' />
+                <format attr='maxheight' value='96' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='603' />
+                <format attr='maxwidth' value='603' />
+                <format attr='minheight' value='60' />
+                <format attr='maxheight' value='60' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Current account balance (BoP, current US$):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='603' />
+                <format attr='maxwidth' value='603' />
+                <format attr='minheight' value='60' />
+                <format attr='maxheight' value='60' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='906' />
+                <format attr='maxwidth' value='906' />
+                <format attr='minheight' value='96' />
+                <format attr='maxheight' value='96' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='603' />
+                <format attr='maxwidth' value='603' />
+                <format attr='minheight' value='60' />
+                <format attr='maxheight' value='60' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Total reserves (includes gold, current US$):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='603' />
+                <format attr='maxwidth' value='603' />
+                <format attr='minheight' value='60' />
+                <format attr='maxheight' value='60' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='906' />
+                <format attr='maxwidth' value='906' />
+                <format attr='minheight' value='96' />
+                <format attr='maxheight' value='96' />
+                <format attr='aspect' value='0' />
+                <format attr='minwidth' value='603' />
+                <format attr='maxwidth' value='603' />
+                <format attr='minheight' value='60' />
+                <format attr='maxheight' value='60' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Current account balance (BoP, current US$):qk] + [federated.1t5hwwl1m3o67211bjjgd0u28n8r].[sum:Total reserves (includes gold, current US$):qk])</rows>
+        <cols>([federated.1t5hwwl1m3o67211bjjgd0u28n8r].[none:Country Name:nk] * [federated.1t5hwwl1m3o67211bjjgd0u28n8r].[none:Year:qk])</cols>
+      </table>
+      <simple-id uuid='{8DDBE774-6E0B-4767-A445-936717E36375}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[Focus Group]' type='filter' />
+            <card pane-specification-id='4' param='[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[:Measure Names]</field>
+            <field>[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[Focus Group]</field>
+            <field>[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[none:Country Name:nk]</field>
+            <field>[federated.1t5hwwl1m3o67211bjjgd0u28n8r].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{91463BF7-F88F-4126-BBCC-C7200C10A9AD}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

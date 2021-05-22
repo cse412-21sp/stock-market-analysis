@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
-    />
-    <title>Stock Market Analysis</title>
-    <meta property="og:title" content="Stock Market Analysis" />
-    <meta charset="utf-8" />
-    <meta property="og:type" content="article" />
 
-    <meta property="og:description" content="The initial template for the CSE412 Final Projects (Spring 2021)" />
-    <meta property="description" content="The initial template for the CSE412 Final Projects (Spring 2021)" />
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+  <title>Stock Market Analysis</title>
+  <meta property="og:title" content="Stock Market Analysis" />
+  <meta charset="utf-8" />
+  <meta property="og:type" content="article" />
 
-    <link rel="stylesheet" href="static/idyll_styles.css" />
-  </head>
-  <body>
-    <div id="idyll-mount"><div data-reactroot=""><div class="idyll-root"><div class=" idyll-text-container"></div><div class="article-header" style="background:#33333f;color:#ffffff"><h1 class="hed">Stock Market Analysis</h1><h2 class="dek">Taking a look at various things about the stocks market...</h2><div class="byline">By: <a target="_blank" href="
-  https://github.com/cse412-21sp/stock-market-analysis" style="color:#ffffff">Angus McLeod, Sylvie Nguyen, Oliver Nie, Calvin Yu. (UW CSE 412, Spring 2021)</a></div><div class="idyll-pub-date">Apr 6, 2021</div></div><div class=" idyll-text-container"><p>In this website we will look at a few analyses on the stock market...</p><h2 id="how-did-the-covid-pandemic-affect-the-returns-of-the-market?-(cy)">How did the COVID pandemic affect the returns of the market? (CY)</h2><p>Here, we will use VFINX, the S&amp;P 500 index as reference to the whole market. VFINX offers exposure to 500 of the largest U.S companies, which span many different industries and account for about three-fourth of the U.S stock market’s value. The key risk for the fund is the volatility that comes with its full exposure to the stock market.</p><p>First, let’s compare the variation of daily return in a month for the past 5 years in the boxplot below. Select the month you want to compare with the slider below the chart.</p><div><iframe scrolling="no" style="border:none" seamless="" src="https://chart-studio.plotly.com/~yuchun00/1.embed?showlink=false" height="600" width="100%"></iframe></div><p>Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in most of the months of 2020 we saw a larger variation in daily returns compared to the prior years. In March we saw the highest variation, with a lowest daily return of -12% and a highest daily return of 9%; much higher than the March in the prior years. While we did not see as big of a variation in the remaining months as we did in March, for most of the months the variation were still bigger than the prior years. It is fair to say that we did see a more volatile year in the U.S. market due to the COVID 19 pandemic. </p><h1 id="more-to-be-added!!!!!!!!!!!!!!!!!!!!">More to be added<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!<!-- -->!</h1></div></div></div></div>
-    <script src="static/idyll_index.js"></script>
-  </body>
+  <meta property="og:description" content="The initial template for the CSE412 Final Projects (Spring 2021)" />
+  <meta property="description" content="The initial template for the CSE412 Final Projects (Spring 2021)" />
+
+  <link rel="stylesheet" href="static/idyll_styles.css" />
+</head>
+
+<body>
+  <div id="idyll-mount">
+    <div data-reactroot="">
+      <div class="idyll-root">
+        <div class=" idyll-text-container"></div>
+        <div class="article-header" style="background:#33333f;color:#ffffff">
+          <h1 class="hed">Stock Market Analysis</h1>
+          <h2 class="dek">Taking a look at various things about the stocks market...</h2>
+          <div class="byline">By: <a target="_blank" href="
+  https://github.com/cse412-21sp/stock-market-analysis" style="color:#ffffff">Angus McLeod, Sylvie Nguyen, Oliver Nie, Calvin Yu. (UW CSE 412, Spring 2021)</a></div>
+          <div class="idyll-pub-date">Apr 6, 2021</div>
+        </div>
+        <div class=" idyll-text-container">
+          <p>In this website we will look at a few analyses on the stock market...</p>
+          <h2 id="how-did-the-covid-pandemic-affect-the-returns-of-the-market?-(cy)">How did the COVID pandemic affect the returns of the market? (CY)</h2>
+          <p>Here, we will use VFINX, the S&amp;P 500 index as reference to the whole market. VFINX offers exposure to 500 of the largest U.S companies, which span many different industries and account for about three-fourth of the U.S stock market’s
+            value. The key risk for the fund is the volatility that comes with its full exposure to the stock market.</p>
+          <p>First, let’s compare the variation of daily return in a month for the past 5 years in the boxplot below. Select the month you want to compare with the slider below the chart.</p>
+          <div><iframe scrolling="no" style="border:none" seamless="" src="https://chart-studio.plotly.com/~yuchun00/1.embed?showlink=false" height="600" width="100%"></iframe></div>
+          <p>Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in most of the months of 2020 we saw a larger variation in daily returns compared to the prior years. In March we saw the highest variation, with a lowest daily
+            return of -12% and a highest daily return of 9%; much higher than the March in the prior years. While we did not see as big of a variation in the remaining months as we did in March, for most of the months the variation were still bigger
+            than the prior years. It is fair to say that we did see a more volatile year in the U.S. market due to the COVID 19 pandemic.</p>
+          <div><iframe scrolling="no" style="border:none" seamless="" src="https://chart-studio.plotly.com/~angusm1/1/#/?showlink=false" height="600" width="100%"></iframe></div>
+          <p>One thing that we were interested in is how the stock market varies across industries. To examine this we found six industry specific index funds and tracked their monthly returns
+            over the past 10 years. For the specific industries we chose natural resources, transportation, consumer essentials, financial services, health care, and technology. We felt that
+            categories are some of the most influential industries and best represent the stock market.</p>
+          <p>From the return distribution we can see that Technology and Financial services have the most normal distribution. These industries drive much of the stock market and are therefore
+            very reliable. On the other hand we can see that the transportation and natural resource industries have a slight negative skew. This could be due to the drastic decline in demand
+            for these industries due to the pandemic!</p>
+          <p>I will also be creating an equity curve for each industry. The visualization will have annimation that tracks the value on a dollar investment over time. The initial investment value will be able to be changed by the user!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='tableauPlaceholder' id='viz1621663352131' style='position: relative'><noscript><a href='#'><img alt='Economy and Gold '
+          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;AccountBalanceandGold&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='AccountBalanceandGold&#47;Sheet1' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;AccountBalanceandGold&#47;Sheet1&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en' /></object></div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1621663352131');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '70%';
+    vizElement.style.textAlign = 'center';
+    vizElement.style.margin ='auto';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+  <p>There are other potential variables --- gold and GDP. As you can see on this current graph, we are currently viewing a intereting relationships between GDP and gold.
+     Gold is usually considered as one of the most valuable goods for trading. We are planning to add the line for stock market later to demonstrate the interesting insights.
+     There is another chart following this current one. It is a bound chart between S&P500 and US government debt bound. With a clear sight, we can see the higher the US government
+     debt bound reward goes the higher the S&P500 performance is. </p>
+
+  <div class='tableauPlaceholder' id='viz1621663833947' style='position: relative'><noscript><a href='#'><img alt='S&amp;P 500 and US Government debt bound '
+          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SP&#47;SP500andUSGovernmentDebtBound&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='SP500andUSGovernmentDebtBound&#47;Sheet2' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SP&#47;SP500andUSGovernmentDebtBound&#47;Sheet2&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='en' />
+      <param name='filter' value='publish=yes' /></object></div>
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1621663833947');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '70%';
+    vizElement.style.height = (divElement.offsetWidth * 0.55) + 'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+  <script src="static/idyll_index.js"></script>
+</body>
+
 </html>
