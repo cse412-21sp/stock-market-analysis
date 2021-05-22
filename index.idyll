@@ -27,5 +27,15 @@ First, let's compare the variation of daily return in a month for the past 5 yea
 Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in most of the months of 2020 we saw a larger variation in daily returns compared to the prior years. In March we saw the highest variation, with a lowest daily return of -12% and a highest daily return of 9%; much higher than the March in the prior years. While we did not see as big of a variation in the remaining months as we did in March, for most of the months the variation were still bigger than the prior years. It is fair to say that we did see a more volatile year in the U.S. market due to the COVID 19 pandemic. 
 
 [Graphic]
-[PlotlyEmbed link:"https://chart-studio.plotly.com/~yuchun00/1.embed" height:"600" width:"100%" /]
+[PlotlyEmbed link:"https://chart-studio.plotly.com/~angusm1/1/#/" height:"600" width:"100%" /]
 [/Graphic]
+
+One thing that we were interested in is how the stock market varies across industries. To examine this we found six industry specific index funds and tracked their monthly returns
+over the past 10 years. For the specific industries we chose natural resources, transportation, consumer essentials, financial services, health care, and technology. We felt that
+categories are some of the most influential industries and best represent the stock market. 
+
+From the return distribution we can see that Technology and Financial services have the most normal distribution. These industries drive much of the stock market and are therefore
+very reliable. On the other hand we can see that the transportation and natural resource industries have a slight negative skew. This could be due to the drastic decline in demand
+for these industries due to the pandemic!
+
+I will also be creating an equity curve for each industry. The visualization will have annimation that tracks the value on a dollar investment over time. The initial investment value will be able to be changed by the user!
