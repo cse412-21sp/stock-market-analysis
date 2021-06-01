@@ -30,6 +30,8 @@ Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in mo
 [PlotlyEmbed link:"https://chart-studio.plotly.com/~angusm1/1/#/" height:"600" width:"100%" /]
 [/Graphic]
 
+
+
 One thing that we were interested in is how the stock market varies across industries. To examine this we found six industry specific index funds and tracked their monthly returns
 over the past 10 years. For the specific industries we chose natural resources, transportation, consumer essentials, financial services, health care, and technology. We felt that
 categories are some of the most influential industries and best represent the stock market.
@@ -39,3 +41,17 @@ very reliable. On the other hand we can see that the transportation and natural 
 for these industries due to the pandemic!
 
 I will also be creating an equity curve for each industry. The visualization will have annimation that tracks the value on a dollar investment over time. The initial investment value will be able to be changed by the user!
+
+
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~weixingnie/2/" height:"600" width:"100%" /]
+[/Graphic]
+
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~weixingnie/8/" height:"600" width:"100%" /]
+[/Graphic]
+
+
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~weixingnie/10/" height:"600" width:"100%" /]
+[/Graphic]
