@@ -12,6 +12,8 @@
   color:"#ffffff"
    /]
 
+## Introduction:
+
 Investment is a serious part of the global economy. To invest is to put money with the expectation of revenue in the future.
 In general, investors would gain their revenue if the companies kept a good performance.
 However, investment is way more complex than just a plain statement. There are so many different theories and factors that are directly affecting the stock market in general.
@@ -20,6 +22,31 @@ Thus, we want to predict the high and low in stock market with a few interesting
 We will focus on the some major stock markets, such as China, Japan, and the US. We also are going to dive deeper into topics like national bound and gold price.
 These two factors were commonly used in the past to predict the economy status.
 In this website we will look at a few analyses on the stock market,
+
+## In a grand scale, what is stock market strongly tight with?
+
+Ever since 2008 economy crisis, the US market has pushed the stock market higher and higher. Until today, it is almost a 13 years bull market.
+ (*Bull Market*: A market that is only on the rise.) Many people assumed that the rise of stock market is inevitably connecting to the overall economy.
+This statement is not wrong but neither absolute correct. A good economy does not guarantee a good market. Vice versa, a good market may not represent a
+good economy state. To prove my point here I presented two traditional economy standards of financial evaluation. The first chart is about gold storage.
+Overall, gold is the most powerful and stable trading goods. The second chart is picturing national debt. The higher the number means a serious trouble in
+finance because the country needs to repay its debt in the future.
+
+
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~weixingnie/2/" height:"600" width:"100%" /]
+[/Graphic]
+
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~weixingnie/8/" height:"600" width:"100%" /]
+[/Graphic]
+
+In comparison between the previous two charts and the following visualization, we can see a remarkable shift in the leading markets.
+SSE is the main market standard for China. JPN is the market standard data for Japan. SP500 is the standard and Poor's 500.
+
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~weixingnie/10/" height:"600" width:"100%" /]
+[/Graphic]
 
 ## How did the COVID pandemic affect the returns of the market? (CY)
 
@@ -47,18 +74,4 @@ From the return distribution we can see that Technology and Financial services h
 very reliable. On the other hand we can see that the transportation and natural resource industries have a slight negative skew. This could be due to the drastic decline in demand
 for these industries due to the pandemic!
 
-I will also be creating an equity curve for each industry. The visualization will have annimation that tracks the value on a dollar investment over time. The initial investment value will be able to be changed by the user!
-
-
-[Graphic]
-[PlotlyEmbed link:"https://plotly.com/~weixingnie/2/" height:"600" width:"100%" /]
-[/Graphic]
-
-[Graphic]
-[PlotlyEmbed link:"https://plotly.com/~weixingnie/8/" height:"600" width:"100%" /]
-[/Graphic]
-
-
-[Graphic]
-[PlotlyEmbed link:"https://plotly.com/~weixingnie/10/" height:"600" width:"100%" /]
-[/Graphic]
+I will also be creating an equity curve for each industry. The visualization will have animation that tracks the value on a dollar investment over time. The initial investment value will be able to be changed by the user!
