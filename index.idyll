@@ -73,5 +73,4 @@ categories are some of the most influential industries and best represent the st
 From the return distribution we can see that Technology and Financial services have the most normal distribution. These industries drive much of the stock market and are therefore
 very reliable. On the other hand we can see that the transportation and natural resource industries have a slight negative skew. This could be due to the drastic decline in demand
 for these industries due to the pandemic!
-
-I will also be creating an equity curve for each industry. The visualization will have animation that tracks the value on a dollar investment over time. The initial investment value will be able to be changed by the user!
+\
