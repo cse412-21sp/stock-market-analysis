@@ -19,15 +19,15 @@ In general, investors would gain their revenue if the companies kept a good perf
 However, investment is way more complex than just a plain statement. There are so many different theories and factors that are directly affecting the stock market in general.
 Especially, the process of globalization has accelerated and expanded to almost every country in the world.
 Thus, we want to predict the high and low in stock market with a few interesting features and events.
-We will focus on the some major stock markets, such as China, Japan, and the US. We also are going to dive deeper into topics like national bound and gold price.
+We will focus on some major stock markets, such as China, Japan, and the US. We also are going to dive deeper into topics like national bound, gold price, and how Covid 19 has effected the markes.
 These two factors were commonly used in the past to predict the economy status.
-In this website we will look at a few analyses on the stock market,
+In this website we will look at a few analyses on the stock market.
 
-## In a grand scale, what is stock market strongly tight with?
+## In a grand scale, what is stock market strongly correlated with?
 
-Ever since 2008 economy crisis, the US market has pushed the stock market higher and higher. Until today, it is almost a 13 years bull market.
+Ever since 2008 financial crash, the US market has pushed the stock market higher and higher. Until today, it is almost a 13 years bull market.
  (*Bull Market*: A market that is only on the rise.) Many people assumed that the rise of stock market is inevitably connecting to the overall economy.
-This statement is not wrong but neither absolute correct. A good economy does not guarantee a good market. Vice versa, a good market may not represent a
+This statement is not wrong but neither absolutely correct. A good economy does not guarantee a good market. Vice versa, a good market may not represent a
 good economy state. To prove my point here I presented two traditional economy standards of financial evaluation. The first chart is about gold storage.
 Overall, gold is the most powerful and stable trading goods. The second chart is picturing national debt. The higher the number means a serious trouble in
 finance because the country needs to repay its debt in the future.
@@ -48,7 +48,13 @@ SSE is the main market standard for China. JPN is the market standard data for J
 [PlotlyEmbed link:"https://plotly.com/~weixingnie/10/" height:"600" width:"100%" /]
 [/Graphic]
 
-## How did the COVID pandemic affect the returns of the market? (CY)
+![image](static/images/CovidCrash1.jpg)
+![image](static/images/CovidCrash2.jpg)
+![image](static/images/CovidCrash3.jpg)
+## How did the COVID pandemic affect the returns of the market?
+Last March the US experienced one of the largest stock market crashes in recent history! The next few visualizations will
+dive into some statistical analysis of how the market responed to the pandemic and which industries were hurt the most.
+
 
 Here, we will use VFINX, the S&P 500 index as reference to the whole market. VFINX offers exposure to 500 of the largest U.S companies, which span many different industries and account for about three-fourth of the U.S stock market’s value. The key risk for the fund is the volatility that comes with its full exposure to the stock market.
 
@@ -60,17 +66,16 @@ First, let's compare the variation of daily return in a month for the past 5 yea
 
 Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in most of the months of 2020 we saw a larger variation in daily returns compared to the prior years. In March we saw the highest variation, with a lowest daily return of -12% and a highest daily return of 9%; much higher than the March in the prior years. While we did not see as big of a variation in the remaining months as we did in March, for most of the months the variation were still bigger than the prior years. It is fair to say that we did see a more volatile year in the U.S. market due to the COVID 19 pandemic.
 
-[Graphic]
-[PlotlyEmbed link:"https://chart-studio.plotly.com/~angusm1/1/#/" height:"600" width:"100%" /]
-[/Graphic]
-
-
 
 One thing that we were interested in is how the stock market varies across industries. To examine this we found six industry specific index funds and tracked their monthly returns
 over the past 10 years. For the specific industries we chose natural resources, transportation, consumer essentials, financial services, health care, and technology. We felt that
 categories are some of the most influential industries and best represent the stock market.
 
+[Graphic]
+[PlotlyEmbed link:"https://chart-studio.plotly.com/~angusm1/1/#/" height:"600" width:"100%" /]
+[/Graphic]
+
+
 From the return distribution we can see that Technology and Financial services have the most normal distribution. These industries drive much of the stock market and are therefore
 very reliable. On the other hand we can see that the transportation and natural resource industries have a slight negative skew. This could be due to the drastic decline in demand
 for these industries due to the pandemic!
-\
