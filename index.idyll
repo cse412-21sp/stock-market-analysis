@@ -66,6 +66,12 @@ First, let's compare the variation of daily return in a month for the past 5 yea
 
 Very clearly, due the COVID-19 pandemic and the lockdown since March 2020, in most of the months of 2020 we saw a larger variation in daily returns compared to the prior years. In March we saw the highest variation, with a lowest daily return of -12% and a highest daily return of 9%; much higher than the March in the prior years. While we did not see as big of a variation in the remaining months as we did in March, for most of the months the variation were still bigger than the prior years. It is fair to say that we did see a more volatile year in the U.S. market due to the COVID 19 pandemic.
 
+In order to further explain how returns and prices of stocks have changed in this past year, it is significant that we analyze the companies that have done well. In comparison to many other companies that have suffered during COVID, Amazon has thrived, and this visualization will demonstrate that.
+[Graphic]
+[PlotlyEmbed link:"https://plotly.com/~stn17/1/" height:"600" width:"100%" /]
+[/Graphic]
+
+From this graph, we can see that Amazon's demand skyrocketed due to people being stuck at home and needing to order items from the web. We can see that the maximum for March of 2020 is much higher than the average of the previous years, which indicates a spike in Amazon's returns. The upper and lower quartiles are also more spread than other years -- and even months within the same year -- which represents higher volatility in the market when focusing on this particular company. Evidently, in contrast to the data provided by VFINX, Amazon actually benefited during the beginning of the global pandemic.
 
 One thing that we were interested in is how the stock market varies across industries. To examine this we found six industry specific index funds and tracked their monthly returns
 over the past 10 years. For the specific industries we chose natural resources, transportation, consumer essentials, financial services, health care, and technology. We felt that
